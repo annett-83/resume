@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../HTMLtest"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Summary"
+  }
+}

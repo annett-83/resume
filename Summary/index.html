@@ -6,77 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="html, course, css, taggs">
     <meta name="description" content="This is my summary">
+    <link rel="stylesheet" href="style.css">
     <title>It`s me!</title>
 </head>
 <body>
-    <img src="imgs/ich.png.jpeg" width="200" alt="HTML5 img">  
-    <br>
-    <h1>Anna Auksutat</h1>
-    <p>Ich bin   <strong>Lehrerin für die Fächer Chemie und Deutsch.</strong> . <strong><em>Um den Unterricht interessanter zu gestalten</em></strong> würde ich gerne eine <em>App</em> entwickeln, die den Kindern hilft chemische Zusammenhänger besser zu begreifen<br><br><br> Als Mutter dreier Kinder kenne ich den Medienkonsum dieser Generation sehr gut und denke, dass eine App ihnen dabei helfen würde besser und schneller zu lernen. <strong>Chimi nicht langweilig ist!</strong>  </p>
-    <hr>
-    <h2>Berufserfahrung</h2>
-        <thead>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>Beruf</th>
-                        <th>Arbeitstelle</th>
-                        <th>Arbeitszeit</th>
-                        
-                    </tr>
-    
-                </tbody>
-            </thead>
-            
-            <tr>
-                <td>Schule</td>
-                <td>Chimilehrerin</td>
-                <td>arbeite immer noch</td>
-            
-            </tr>
-            <tr>
-                <td>result.shcool</td>
-                <td>Studentin</td>
-                <td>Frontend developer</td>
-            
-            </tr>
-
-            </table>
-            
-    <hr>
-    <h2>Mein Hobby</h2>
-    <ol>
-        <li>Klavier spielen</li>
-        <li>Bilder malen</li>
-        <li>Sprachen lehrnen</li>
-    </ol>
-    <h3>Kontaktiere mich</h3>
-    <form action="">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Schreibe deinen Name hin.">
-        </div>
-
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Schreibe deine email hin.">
-        </div>
-
-        <div>
-            <label for="massage">Deine Nachricht:</label>
+    <div class="container">
+        <div class="info">
+            <img src="imgs/ich.png.jpeg"  alt="HTML5 img" class="avatar">  
             <br>
-            <textarea  id="massage"  cols="30" rows="10" placeholder="Schreibe deine Nachricht hin, bitte!"></textarea>
+            <div class="info-text">
+                <h1>Anna Auksutat</h1>
+                <p>Ich bin   <strong>Lehrerin für die Fächer Chemie und Deutsch.</strong> . <strong><em>Um den Unterricht interessanter zu gestalten</em></strong> würde ich gerne eine <em>App</em> entwickeln, die den Kindern hilft chemische Zusammenhänger besser zu begreifen<br><br><br> Als Mutter dreier Kinder kenne ich den Medienkonsum dieser Generation sehr gut und denke, dass eine App ihnen dabei helfen würde besser und schneller zu lernen. <strong>Chimi ist nicht langweilig!</strong>  </p>
+            </div>
+        </div>
+        <div class="card bg-orange">
+            <h2>Berufserfahrung</h2>
+                <thead>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th>Beruf</th>
+                                <th>Arbeitstelle</th>
+                                <th>Arbeitszeit</th>
+                                
+                            </tr>
+            
+                        </tbody>
+                </thead>
+                    
+                    <tr>
+                        <td>Schule</td>
+                        <td>Chimilehrerin</td>
+                        <td>arbeite immer noch</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>result.shcool</td>
+                        <td>Studentin</td>
+                        <td>Frontend developer</td>
+                    
+                    </tr>
+
+                    </table>
+                
+        </div>
+        <div class="card bg-olive ">        
+        
+            <h2>Mein Hobby</h2>
+            <ol class="list">
+                <li>Klavier spielen</li>
+                <li>Bilder malen</li>
+                <li>Sprachen lehrnen</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            
+            <form action="/" class="form">
+                <h3>Kontaktiere mich</h3>
+            
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Schreibe deinen Name hin.">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Schreibe deine email hin.">
+                </div>
+            </div>
+
+                <div class="form-group">
+                    <label for="massage">Deine Nachricht:</label>
+                    <textarea  id="massage"  cols="30" rows="10" placeholder="Schreibe deine Nachricht hin, bitte!"></textarea>
+                </div>
+
+            </form>
+
+                <div>
+                    <button class="btn" type="submit">Senden</button>
+                </div>   
         </div>
 
-        <div>
-            <button type="submit">Senden</button>
+        <div class="oder">
+            <h3>oder</h3>
+            <a href="https://vk.com/anna.auksutat">You can find me on VK</a>
+            |
+            <a href="https://instagram.com/anna.auksutat83">or Instagram</a>
         </div>
-
-    </form>
-
-    <h3>oder</h3>
-    <a href="https://vk.com/anna.auksutat">You can find me on VK</a>
-    |
-    <a href="https://instagram.com/anna.auksutat83">or Instagram</a>
+    </div>    
 </body>
 </html>
